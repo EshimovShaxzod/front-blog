@@ -35,10 +35,10 @@ const PostPage = () => {
   return (
     <div className="w-full max-w-[1240px] mx-auto px-4 lg:px-6 py-2.5 mt-6">
       <div className="w-full mx-auto">
-        <div className="w-full max-w-[400px] mx-auto  flex flex-col justify-center items-center border-2 rounded-md pb-4">
+        <div className="w-full max-w-[400px] mx-auto  flex flex-col justify-center items-center border-2 rounded-md">
           <User className="w-[100px] h-[100px] rounded-full" />
           <h3 className="text-2xl mt-4">{user?.username}</h3>
-          <div className="mt-6 text-gray-700">{user?.body}</div>
+          <div className="mt-6">{user?.body}</div>
         </div>
       </div>
     </div>

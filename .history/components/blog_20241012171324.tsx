@@ -72,10 +72,10 @@ const Blog = () => {
                   {blog.category.toLowerCase()}
                 </h1>
                 <p className="leading-relaxed mb-6">{blog.body}</p>
-                <div className=" flex items-center gap-x-5 flex-wrap">
+                <div className=" flex items-center gap-x-5 flex-wrap absolute bottom-10">
                   <Link
                     href={`/post/${blog.slug}`}
-                    className="text-indigo-500 inline-flex items-center"
+                    className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
                   >
                     Learn More
                     <svg

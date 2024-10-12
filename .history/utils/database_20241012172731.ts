@@ -11,6 +11,7 @@ export const connectToDB = async  () => {
         return;
     }
 
+    const MONGODB_URI = "mongodb+srv://shoxdeveloper2425:ulNbKqxwBkSZMrUK@ecommerce-backend.adqnw.mongodb.net/?retryWrites=true&w=majority&appName=ecommerce-backend"
 
     try {
         await mongoose.connect(process.env.MONGODB_URI as string, {
