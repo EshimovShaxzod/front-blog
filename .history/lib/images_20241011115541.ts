@@ -1,0 +1,1 @@
+import fon1 from '@/'

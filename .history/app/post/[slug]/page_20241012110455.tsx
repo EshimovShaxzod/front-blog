@@ -1,0 +1,14 @@
+"use client";
+import { useParams } from "next/navigation";
+
+const PostPage = () => {
+  const params = useParams();
+
+  const { _id } = params;
+
+  log
+
+  return <div className="w-full max-w-[1240px] mx-auto">PostPage {_id}</div>;
+};
+
+export default PostPage;

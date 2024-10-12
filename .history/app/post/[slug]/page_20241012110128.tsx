@@ -1,0 +1,11 @@
+import { useRouter } from "next/router";
+
+const PostPage = () => {
+  const router = useRouter();
+
+  console.log(params._id, "salom");
+
+  return <div className="w-full max-w-[1240px] mx-auto">PostPage</div>;
+};
+
+export default PostPage;
